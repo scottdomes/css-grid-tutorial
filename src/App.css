@@ -1,0 +1,122 @@
+body {
+  padding: 40px;
+  position: relative;
+}
+
+button {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Helvetica';
+  transform: 2s all ease;
+}
+
+#app {
+  position: relative;
+}
+
+#container, #container2 {
+  background-color: #ecf0f1;
+  padding: 20px;
+  transition: all 2s ease;
+  /*max-height: 500px;*/
+
+}
+
+#container2.stage2 {
+  display: grid;
+  grid-template-columns: 500px 500px;
+}
+
+#container2.stage2 {
+  grid-template-columns: 300px 500px;
+}
+
+#container2.stage2 {
+  grid-template-columns: 500px 500px;
+}
+
+#container2.stage2 {
+  grid-template-columns: 500px 500px;
+}
+
+#container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1,
+}
+
+
+
+.square, .square2 {
+  margin: 10px;
+  background-color: #e74c3c;
+  transition: all 2s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.square {
+  position: absolute;
+  margin: 0;
+  z-index: 2;
+}
+
+.square2, #container2 {
+  opacity: 0;
+}
+
+.square2 p {
+  font-style: italic;
+  font-size: 35px;
+}
+
+p {
+  color: white;
+  font-family: 'Helvetica';
+  font-size: 30px;
+}
+
+#one, #one2 {
+  background-color: #2ecc71;
+}
+
+#two, #two2 {
+  background-color: #f1c40f;
+}
+
+#four, #four2 {
+  background-color: #3498db;
+}
+
+#five, #five2 {
+  background-color: #1abc9c;
+}
+
+#six, #six2 {
+  background-color: #e67e22;
+}
+
+#seven, #seven2 {
+  background-color: #9b59b6;
+}
+
+#eight, #eight2 {
+  background-color: #2980b9;
+}
+
+#nine, #nine2 {
+  background-color: #34495e;
+}
+
+#ten, #ten2 {
+  display: none;
+  background-color: #c0392b;
+}
